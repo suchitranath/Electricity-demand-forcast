@@ -1,59 +1,67 @@
-## Title of the Project
-Small description about the project like one below
-The integration of a chatbot within a hostel booking system, aimed at streamlining the reservation process for students and improving the overall user experience.
+## AI-Driven Electricity Demand Forecasting System
+An intelligent forecasting system that predicts electricity demand using ML, deep learning, and federated learning for improved grid planning and stability.
 
 ## About
-<!--Detailed Description about the project-->
-Tailored Chatbot for Hostel Booking System is a project designed to integrate a chatbot that leverages advanced natural language processing techniques to understand and respond to user queries to the hostel booking system. Traditional hostel booking processes are often time-consuming and involve manual searches and extensive communication with hostel staff. This project seeks to overcome these challenges by creating an easy-to-use chatbot interface that assists students in addressing inquiries.
+The AI-Driven Electricity Demand Forecasting System is designed to predict future electricity consumption using advanced Machine Learning, Deep Learning, and Federated Learning techniques. Traditional load forecasting methods struggle with non-linear patterns, seasonal variation, climate changes, and regional differences. This project solves these challenges by integrating an intelligent forecasting model that uses historical load data, weather features, and temporal attributes to generate highly accurate predictions.
 
+The system enhances grid stability, supports decision-making for power utilities, reduces demand-supply imbalance, and enables scalable, privacy-preserving model training through federated learning. It is capable of real-time forecasting and performs exceptionally well in scenarios with fluctuating climate conditions and diverse regional load profiles.
 ## Features
-<!--List the features of the project as shown below-->
-- Implements advance neural network method.
-- A framework based application for deployment purpose.
-- High scalability.
-- Less time complexity.
-- A specific scope of Chatbot response model, using json data format.
+- Utilizes LSTM-based deep learning models for high-accuracy time-series forecasting.
+- Integrates Federated Learning for privacy-preserving collaborative model training across regions.
+- Handles weather, socio-economic, and temporal variables for more realistic demand prediction.
+- Lightweight and scalable framework suitable for deployment on cloud or edge environments.
+- Performs preprocessing, feature engineering, model training, evaluation, and prediction automatically.
+- Provides visual outputs such as graphs for training performance and actual vs predicted loads.
+- Minimal computational complexity due to optimized architecture and streamlined preprocessing.
 
 ## Requirements
 <!--List the requirements of the project as shown below-->
 * Operating System: Requires a 64-bit OS (Windows 10 or Ubuntu) for compatibility with deep learning frameworks.
 * Development Environment: Python 3.6 or later is necessary for coding the sign language detection system.
-* Deep Learning Frameworks: TensorFlow for model training, MediaPipe for hand gesture recognition.
-* Image Processing Libraries: OpenCV is essential for efficient image processing and real-time hand gesture recognition.
+* Machine Learning & Deep Learning Frameworks: TensorFlow / Keras, Scikit-learn, TensorFlow Federated (for FL implementation)
+* Data & Processing Libraries: Numpy, Pandas, Matplotlib, Seaborn
 * Version Control: Implementation of Git for collaborative development and effective code management.
-* IDE: Use of VSCode as the Integrated Development Environment for coding, debugging, and version control integration.
-* Additional Dependencies: Includes scikit-learn, TensorFlow (versions 2.4.1), TensorFlow GPU, OpenCV, and Mediapipe for deep learning tasks.
+* IDE: Google Colab
+* Additional Dependencies: OpenCV (if visualization or UI extensions are added), SHAP (optional for explainability
 
 ## System Architecture
-<!--Embed the system architecture diagram as shown below-->
 
-![Screenshot 2023-11-25 133637](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/a60c11f3-0a11-47fb-ac89-755d5f45c995)
+<img width="200" height="525" alt="image" src="https://github.com/user-attachments/assets/4fc50fd3-44e2-48c3-aab4-1fe4741acee2" />
 
 
 ## Output
 
 <!--Embed the Output picture at respective places as shown below as shown below-->
-#### Output1 - Name of the output
+#### Output1 - Model comparison summary
+<img width="734" height="265" alt="image" src="https://github.com/user-attachments/assets/df03b312-5c61-45c3-9712-c7df1927c9b2" />
 
-![Screenshot 2023-11-25 134037](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/8c2b6b5c-5ed2-4ec4-b18e-5b6625402c16)
 
-#### Output2 - Name of the output
-![Screenshot 2023-11-25 134253](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/5e05c981-05ca-4aaa-aea2-d918dcf25cb7)
 
-Detection Accuracy: 96.7%
-Note: These metrics can be customized based on your actual performance evaluations.
+#### Output2 - Visualization
+<img width="1686" height="731" alt="Screenshot 2025-11-27 211116" src="https://github.com/user-attachments/assets/fb9e8410-3eae-4745-adbc-46d608a3a9ca" />
+
+<img width="1686" height="630" alt="Screenshot 2025-11-27 211211" src="https://github.com/user-attachments/assets/ea4f1818-540f-40b9-944e-b81166c302e7" />
+
+
+<img width="1672" height="670" alt="Screenshot 2025-11-27 211244" src="https://github.com/user-attachments/assets/2b369cd7-91f1-4810-9504-5197eb89c8c4" />
+
+#### Output2 - Analysis report
+<img width="709" height="769" alt="Screenshot 2025-11-27 211409" src="https://github.com/user-attachments/assets/201430db-498d-4b2f-839d-9c635da0609d" />
+
+
+
+Detection Accuracy:  95.47%
+
 
 
 ## Results and Impact
-<!--Give the results and impact as shown below-->
-The Sign Language Detection System enhances accessibility for individuals with hearing and speech impairments, providing a valuable tool for inclusive communication. The project's integration of computer vision and deep learning showcases its potential for intuitive and interactive human-computer interaction.
+This forecasting system significantly enhances grid stability and operational planning by providing accurate predictions for electricity demand. It supports utilities in optimizing energy distribution, avoiding blackouts, and reducing operational costs. The integration of deep learning models ensures better handling of complex patterns, while federated learning enables collaborative improvement of forecasting models without exposing sensitive regional data.
 
-This project serves as a foundation for future developments in assistive technologies and contributes to creating a more inclusive and accessible digital environment.
+The project contributes to the development of smarter, more resilient energy management systems and represents a major step toward AI-enabled sustainable power infrastructure.
 
 ## Articles published / References
-1. N. S. Gupta, S. K. Rout, S. Barik, R. R. Kalangi, and B. Swampa, “Enhancing Heart Disease Prediction Accuracy Through Hybrid Machine Learning Methods ”, EAI Endorsed Trans IoT, vol. 10, Mar. 2024.
-2. A. A. BIN ZAINUDDIN, “Enhancing IoT Security: A Synergy of Machine Learning, Artificial Intelligence, and Blockchain”, Data Science Insights, vol. 2, no. 1, Feb. 2024.
-
-
+1. Ning Zhang, P. Wang, and J. Li, “Deep Learning Models for Short-Term Load Forecasting,” IEEE Transactions on Smart Grid, 2022.
+2. Y. Ahmad and H. Zhang, “Load Forecasting in Smart Grids: A Review of Deep Learning Techniques,” Energy Reports, 2021.
+3. S. Mohan, A. Singh, “Hybrid Machine Learning for Electricity Demand Prediction in India,” Elsevier Energy, 2023.
 
 
